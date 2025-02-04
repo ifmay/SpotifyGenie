@@ -5,7 +5,7 @@
 ```
 
 
-View on [GitHub Pages](https://mystictide.github.io/explore-spotify/)
+View on [GitHub Pages](https://ifmay.github.io/SpotifyGenie/)
 
 ### Explore Spotify, by your Top Artists & Tracks, create playlists by the recommendations
 
