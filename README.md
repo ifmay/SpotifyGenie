@@ -1,9 +1,3 @@
-> This is my first React app, and a product of a whole lot of trial and error.
-
-```diff
-- (Work in Progress)
-```
-
 
 View on [GitHub Pages](https://ifmay.github.io/explore-spotify/)
 
