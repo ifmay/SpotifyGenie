@@ -1,5 +1,11 @@
+> This is my first React app, and a product of a whole lot of trial and error.
 
-View on [GitHub Pages](https://ifmay.github.io/explore-spotify/)
+```diff
+- (Work in Progress)
+```
+
+
+View on [GitHub Pages](https://mystictide.github.io/explore-spotify/)
 
 ### Explore Spotify, by your Top Artists & Tracks, create playlists by the recommendations
 
