@@ -1,10 +1,3 @@
-> This is my first React app, and a product of a whole lot of trial and error.
-
-```diff
-- (Work in Progress)
-```
-
-
 View on [GitHub Pages](https://ifmay.github.io/SpotifyGenie/)
 
 ### Explore Spotify, by your Top Artists & Tracks, create playlists by the recommendations
