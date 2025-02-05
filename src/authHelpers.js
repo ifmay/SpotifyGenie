@@ -29,22 +29,25 @@ const authHelpers = {
     }
   },
   setUserID: async function (token) {
-    await axios({
+    try {
+      const res = await axios({
         method: 'GET',
         url: 'https://api.spotify.com/v1/me',
         headers: {
-            'Authorization': 'Bearer ' + token,
-            'Content-Type': 'application/x-www-form-urlencoded'
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/x-www-form-urlencoded'
         },
         json: true
-    }).then(res => {
+      });
       if (res) {
         document.cookie = "spotiUID=" + res.data.id + ";max-age=3600;samesite=lax;Secure";
         if (res.data.display_name) {
           document.cookie = "spotiUN=" + res.data.display_name + ";max-age=3600;samesite=lax;Secure";
         }
       }
-    })
+    } catch (error) {
+      console.error("Error fetching user data: ", error);
+    }
   },
   getUserID: function () {
     if (document.cookie) {
