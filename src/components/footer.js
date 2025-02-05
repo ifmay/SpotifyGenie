@@ -17,7 +17,6 @@ const Footer = (props) => {
       </div>
       <div className="info">
         <div className="react">
-          made with <h3 onClick={Footer.goToReact}>React</h3>.. and some <h2>☕</h2>
         </div>
       </div>
     </footer>
@@ -30,7 +29,7 @@ Footer.goToReact = () => {
 };
 
 Footer.goToRepo = () => {
-  let url = "https://github.com/mystictide/explore-spotify";
+  let url = "https://github.com/ifmay/SpotifyGenie";
   window.open(url, "_blank");
 };
 
